@@ -1,0 +1,244 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* .apollo_container{
+    width:100vw;
+} */
+.header_body {
+  background-image: linear-gradient(#043761, #2271b3);
+}
+.navbar {
+  width: 80%;
+  height: 100px;
+  /* display: flex;
+  justify-content: start;
+  align-items: center; */
+  position:relative;
+  margin:auto auto;
+  padding-bottom: 5rem;
+}
+.navbar img {
+  height: 100px;
+}
+.user_details_form{
+    min-height:500px;
+    padding-top: 3rem;
+    width:80%;
+    color:#fff;
+    font-weight: 500;
+    position: relative;
+    margin:0 auto;
+}
+.apollo_tagline h1{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.apollo_tagline{
+    /* height:500px;
+    position:relative;
+    margin:auto auto; */
+    /* display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left; */
+}
+.user_submission {
+  background-color: #199ee6;
+  text-align: center;
+  border-radius: 10px;
+  padding:25px 0;
+  /* width:80%; */
+}
+.user_submission form {
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.user_details {
+  width: 90%;
+  padding: 5px 0;
+}
+.ig_input {
+  width: 100%;
+  height: 37px;
+  padding: 0 3px;
+  border-radius: 3px;
+  border: none;
+}
+.input_field {
+  padding: 5px 0;
+}
+.submit_btn {
+  padding: 5px 0;
+}
+.btn {
+  width: 100%;
+  height: 37px;
+  background-color: #083659;
+  border: 1px solid #083659;
+  color: #fff;
+  border-radius: 3px;
+}
+.col-xl-equal{
+    width:20%;
+}
+.centre_excellence{
+    width:80%;
+    position:relative;
+    margin:0 auto;
+}
+.covid_safe{
+    width:80%;
+    position:relative;
+    margin:20px auto;
+    text-align: center;
+}
+.light_card{
+    border:1px solid #7abbf0;
+    background-color: #dceefc;
+    height:300px;
+    padding-top:2%;
+
+}
+.Oncology{
+    height:100vh;
+    background-color: #f5f5f5;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.oncology_description{
+    width:80%;
+}
+.Cardiology{
+    height:100vh;
+    background-color: #e8e8e8;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.cardiology_description{
+    width:80%;
+    padding-left: 15%;
+}
+.Orthopedics{
+    height:100vh;
+    background-color: #b9ddfa;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.orthopedics_description{
+    width:80%;
+}
+.Robotic_Surgery{
+    height:100vh;
+    background-color: #1665a6;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.surgery_description{
+    width:80%;
+    padding-left: 15%;
+}
+.Nephrology{
+    height:100vh;
+    background-color: #b9ddfa;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nephrology_desc{
+    width:80%;
+}
+.Neurology{
+    height:100vh;
+    background-color: #82898f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.neurology_desc{
+    width:80%;
+    padding-left: 15%;
+}
+.Urology{
+    height:100vh;
+    margin-top:15px;
+    background-color: #b9ddfa;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.urology_desc{
+    width:80%;
+}
+.Gastroenterology{
+    height:100vh;
+    margin-top:15px;
+    background-color: #82898f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.gastro_desc{
+    width:80%;
+    padding-left: 15%;
+}
+.Bariatric_Surgery{
+    height:100vh;
+    background-color: #d66f6f;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.bariatric_desc{
+    width:80%;
+}
+.Pulmonary{
+    height:100vh;
+    background-color: #9ac8fc;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-end;
+}
+.pulmonary_desc{
+    width:80%;
+    padding-left: 15%;
+}
+.footer_section{
+    height:60px;
+    background-color: #1f79e0;
+    display:flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+}
+.book_app{
+    height:40px;
+    background-color: #e0701b;
+    position:sticky;
+    bottom:0;
+    display:flex;
+    justify-self: center;
+    align-items: center;
+    text-align: center;
+    color:#fff;
+}
