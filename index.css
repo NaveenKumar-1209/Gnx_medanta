@@ -6,40 +6,75 @@ body {
 /* .apollo_container{
     width:100vw;
 } */
-.header_body {
-  background-image: linear-gradient(#043761, #2271b3);
+.section_first {
+  position: relative;
 }
+.header_body {
+  width:100vw;
+  height:100vh;
+}
+.top_sliding {
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  background-image: rgba(31, 103, 166, 0.5);
+}
+.top_sliding img{
+    width:100vw;
+    height:100vh;
+}
+.curved_svg_one{
+    position:absolute;
+    bottom:0;
+    z-index:-1;
+    top: 0;
+    left: 0;
+    margin: auto;
+}
+.svg_one{
+    position:absolute;
+    bottom:0%;
+    vertical-align: middle;
+    border-style: none;
+    width:100vw;
+    height:40%;
+}
+.svg_two{
+    position:absolute;
+    bottom:0%;
+    z-index:-1;
+    width:100vw;
+    height:34%;
+}
+
 .navbar {
   width: 80%;
   height: 100px;
-  /* display: flex;
-  justify-content: start;
-  align-items: center; */
-  position:relative;
-  margin:auto auto;
+  position: relative;
+  margin: auto auto;
   padding-bottom: 5rem;
 }
 .navbar img {
   height: 100px;
 }
-.user_details_form{
-    min-height:500px;
-    padding-top: 3rem;
-    width:80%;
-    color:#fff;
-    font-weight: 500;
-    position: relative;
-    margin:0 auto;
+.user_details_form {
+  min-height: 500px;
+  padding-top: 3rem;
+  width: 80%;
+  color: #fff;
+  font-weight: 500;
+  position: relative;
+  margin: 0 auto;
 }
-.apollo_tagline h1{
-    font-weight: 700;
-    font-size: 3.5rem;
+.apollo_tagline h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
 }
-.apollo_tagline{
-    /* height:500px;
+.apollo_tagline {
+  /* height:500px;
     position:relative;
     margin:auto auto; */
-    /* display:flex;
+  /* display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -49,7 +84,7 @@ body {
   background-color: #199ee6;
   text-align: center;
   border-radius: 10px;
-  padding:25px 0;
+  padding: 25px 0;
   /* width:80%; */
 }
 .user_submission form {
@@ -77,7 +112,7 @@ body {
 .submit_btn {
   padding: 5px 0;
 }
-.btn {
+.submit_btn {
   width: 100%;
   height: 37px;
   background-color: #083659;
@@ -85,160 +120,235 @@ body {
   color: #fff;
   border-radius: 3px;
 }
-.col-xl-equal{
-    width:20%;
-}
-.centre_excellence{
-    width:80%;
-    position:relative;
-    margin:0 auto;
-}
-.covid_safe{
-    width:80%;
-    position:relative;
-    margin:20px auto;
-    text-align: center;
-}
-.light_card{
-    border:1px solid #7abbf0;
-    background-color: #dceefc;
-    height:300px;
-    padding-top:2%;
-
-}
-.Oncology{
-    height:100vh;
-    background-color: #f5f5f5;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.oncology_description{
-    width:80%;
-}
-.Cardiology{
-    height:100vh;
-    background-color: #e8e8e8;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-}
-.cardiology_description{
-    width:80%;
-    padding-left: 15%;
-}
-.Orthopedics{
-    height:100vh;
-    background-color: #b9ddfa;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.orthopedics_description{
-    width:80%;
-}
-.Robotic_Surgery{
-    height:100vh;
-    background-color: #1665a6;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-}
-.surgery_description{
-    width:80%;
-    padding-left: 15%;
-}
-.Nephrology{
-    height:100vh;
-    background-color: #b9ddfa;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.nephrology_desc{
-    width:80%;
-}
-.Neurology{
-    height:100vh;
-    background-color: #82898f;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-}
-.neurology_desc{
-    width:80%;
-    padding-left: 15%;
-}
-.Urology{
-    height:100vh;
-    margin-top:15px;
-    background-color: #b9ddfa;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.urology_desc{
-    width:80%;
-}
-.Gastroenterology{
-    height:100vh;
-    margin-top:15px;
-    background-color: #82898f;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-}
-.gastro_desc{
-    width:80%;
-    padding-left: 15%;
-}
-.Bariatric_Surgery{
-    height:100vh;
-    background-color: #d66f6f;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.bariatric_desc{
-    width:80%;
-}
-.Pulmonary{
-    height:100vh;
-    background-color: #9ac8fc;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:flex-end;
-}
-.pulmonary_desc{
-    width:80%;
-    padding-left: 15%;
-}
-.footer_section{
-    height:60px;
-    background-color: #1f79e0;
-    display:flex;
-    justify-self: center;
-    align-items: center;
-    text-align: center;
-}
-.book_app{
-    height:40px;
-    background-color: #e0701b;
-    position:sticky;
-    bottom:0;
-    display:flex;
-    justify-self: center;
-    align-items: center;
-    text-align: center;
+.mobile_btn{
+    background-color: #0b5559;
     color:#fff;
+    font-weight: 500;
+    border:1px solid #0b5559;
 }
+.mobile_btn:hover{
+    background-color: #0b5559;
+}
+.col-xl-equal {
+  width: 20%;
+}
+.centre_excellence {
+  width: 80%;
+  position: relative;
+  margin: 0 auto;
+}
+.centre_excellence img{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 100%;
+    padding: 0;
+    border: 1px solid #007c9d;
+    /* display: block; */
+    line-height: 97px;
+    overflow: hidden;
+    margin-bottom: 6px;
+}
+.covid_safe {
+  width: 80%;
+  position: relative;
+  margin: 20px auto;
+  text-align: center;
+}
+.light_card {
+  border: 1px solid #7abbf0;
+  background-color: #dceefc;
+  height: 300px;
+  padding-top: 2%;
+}
+.light_card img{
+    padding-bottom: 10px;
+}
+.Oncology {
+  height: 100vh;
+  /* background-color: #f5f5f5; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/bariatric-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: left center;
+}
+.oncology_description {
+  width: 80%;
+}
+.Cardiology {
+  height: 100vh;
+  /* background-color: #e8e8e8; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./image/cardiology-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: right center;
+}
+.cardiology_description {
+  width: 80%;
+  padding-left: 15%;
+}
+.Orthopedics {
+  height: 100vh;
+  /* background-color: #b9ddfa; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/ortho-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: left center;
+}
+.orthopedics_description {
+  width: 80%;
+}
+.Robotic_Surgery {
+  height: 100vh;
+  /* background-color: #1665a6; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./image/sec_2.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: left center;
+}
+.Robotic_Surgery p,
+.Robotic_Surgery h3 {
+  color: #a9a9a9;
+}
+.surgery_description {
+  width: 80%;
+  padding-left: 15%;
+}
+.Nephrology {
+  height: 100vh;
+  /* background-color: #b9ddfa; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/sec_1.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 40% center;
+}
+.Nephrology p {
+  color: #2e2d2d;
+}
+.nephrology_desc {
+  width: 80%;
+}
+.Neurology {
+  height: 100vh;
+  /* background-color: #82898f; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./image/sec_7.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: left center;
+}
+.neurology_desc {
+  width: 80%;
+  padding-left: 15%;
+}
+.Urology {
+  height: 100vh;
+  margin-top: 15px;
+  /* background-color: #b9ddfa; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/sec_6.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 52% center;
+}
+.urology_desc {
+  width: 80%;
+}
+.Gastroenterology {
+  height: 100vh;
+  margin-top: 15px;
+  /* background-color: #82898f; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./image/sec_9.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 89% center;
+}
+.gastro_desc {
+  width: 80%;
+  padding-left: 15%;
+}
+.Bariatric_Surgery {
+  height: 100vh;
+  /* background-color: #d66f6f; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./image/sec_8.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 60% center;
+}
+.bariatric_desc {
+  width: 80%;
+}
+.Pulmonary {
+  height: 100vh;
+  /* background-color: #9ac8fc; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background-image: url(./image/sec_10.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: 45% center;
+}
+.pulmonary_desc {
+  width: 80%;
+  padding-left: 15%;
+}
+.footer_section {
+  height: 60px;
+  background-color: #1f79e0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+}
+.book_app {
+  height: 40px;
+  background-color: #e0701b;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+
+
+
